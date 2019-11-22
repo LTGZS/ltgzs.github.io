@@ -1,0 +1,62 @@
+.quanjuneirong{
+			border-radius: 20px;
+			position: absolute;
+			top: 0; bottom: 0; left: 0; right: 0;
+			/* 1.要求自身内容相对包含块居中 */
+			margin: auto;
+			/* 2.给出自身宽高计算方式 */
+			width: 1200px; height: 600px;
+			background-color: aquamarine;
+			border: solid 2px white;
+			background-image: url('http://pic1.win4000.com/wallpaper/3/586f489866ed4.jpg');
+			background-repeat: no-repeat;
+			background-position:center;
+		}
+		.neironglm h1{
+			margin-top: 200px;
+			width: 100%;
+			text-align: center;
+			color: white;
+		}
+		.rj{
+			margin: 0 auto;
+			margin-top: 150px;
+			width: 500px;
+		}
+		.rj h3{
+			width: 100%;
+			text-align: center;
+			color: white;
+		}
+		.rj ul{
+			width: 500px;
+			height: 100%;
+			margin: 0 auto;
+		}
+		.rj ul li{
+			margin: 25px;
+			width: 50px;
+			list-style: none;
+			float: left;
+		}
+		.rj ul li a img{
+			border-radius: 50px;
+			width: 50px;
+		}
+		.rj p{
+			display: block;
+			width: 100%;
+			text-align: center;
+			color: white;
+			font-weight: bold;
+		}
+		.spjs{
+			text-align: center;
+			color: white;
+			margin: 15px;
+		}
+		video{
+			border-radius: 20px;
+			display: block;
+			margin: 0 auto;
+		}
