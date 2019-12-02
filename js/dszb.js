@@ -29,7 +29,7 @@
 	})
 	//cctv4
 	document.querySelector('.qiehuannn').addEventListener('click', function () {
-	    changeVideo(src='https://www7.laqddcc.com/hls/2019/12/01/PSqc40JX/playlist.m3u8');
+	    changeVideo(src='http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8');
 	})
 	//cctv5
 	document.querySelector('.qiehuannnn').addEventListener('click', function () {
