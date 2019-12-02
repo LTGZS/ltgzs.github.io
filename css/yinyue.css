@@ -21,7 +21,7 @@
 		.container{
 			display: flex;
 			flex-wrap:wrap ;
-			width: 90%;
+			width: 75%;
 			margin: 0 auto;
 			margin-top: 10px;
 			justify-content:space-around;
@@ -52,7 +52,8 @@
 			.dyhb{
 				border-radius: 10px;
 				position:absolute;
-				
+				width:250px;
+				 height:160px;
 				top: 0px;
 				left: 0px;
 			}
@@ -60,9 +61,10 @@
 		.videolist { position:relative; /* float:left; */width:250px; height:160px; margin: 0 auto; margin-top: 50px; }
 		.videolist:hover{ cursor: pointer; }
 		.videoed { display:none; width:50px; height:50px; position: absolute; left:40%; top:30%; z-index:10; border-radius:100%; background-color: darkgrey;}
-		.videos{ display:none; border: 1px solid #080808; position:fixed; top:0px;  z-index:100; width:100%; height:100vh; background-color: ;background-image:url('') ;background-repeat: no-repeat;
+		.videos{ display:none; position:fixed; top:0px;  z-index:100; width:100%; height:100%; background-image:url('https://img.zcool.cn/community/017e855cdbaf01a801208f8bd29353.jpg') ;background-repeat: no-repeat;
 		background-position: center;
-						background-attachment: fixed;
+					
+						
 		}
 		.vclose { position:absolute;right:2%; top:2%; border-radius:100%; cursor: pointer;z-index: 1000; }
 		.videos video{
@@ -71,11 +73,44 @@
 			/* 1.要求自身内容相对包含块居中 */
 			margin: auto;
 			/* 2.给出自身宽高计算方式 */
-			
+			width: 70%;
+			outline:none; 
 			background-image: url('http://img.zcool.cn/community/01c8715b094adaa8012043d8bbbb29.gif');
 			background-position: center;
 			background-repeat: no-repeat;
 			border-radius:15px;
 			background-size: 100%;
 		}
-		
+		@media only screen and (max-width: 900px){
+			.videolist { position:relative; /* float:left; */width:150px; height:100px; margin: 0 auto; margin-top: 50px; }
+			.dyhb{
+				border-radius: 10px;
+				position:absolute;
+				width:150px;
+				 height:100px;
+				top: 0px;
+				left: 0px;
+			}
+			.container{
+				display: flex;
+				flex-wrap:wrap ;
+				width: 100%;
+				margin: 0 auto;
+				margin-top: 10px;
+				justify-content:space-around;
+			}
+			.videos video{
+				position: absolute;
+				top: 0; bottom: 0; left: 0; right: 0;
+				/* 1.要求自身内容相对包含块居中 */
+				margin: auto;
+				/* 2.给出自身宽高计算方式 */
+				width: 100%;
+				outline:none; 
+				background-image: url('http://img.zcool.cn/community/01c8715b094adaa8012043d8bbbb29.gif');
+				background-position: center;
+				background-repeat: no-repeat;
+				border-radius:15px;
+				background-size: 100%;
+			}
+		}

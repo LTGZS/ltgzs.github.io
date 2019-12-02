@@ -14,12 +14,12 @@
 	else if(name=="demo1" && pass=="demo321"){
 		alert("登录成功！");
 		//这里写你页面跳转的语句
-		window.location.href="https://zhidao.baidu.com/question/304281524985227924.html";
+		window.location.href="index2.html";
 	}
 	else if(name=="demo2" && pass=="demo321"){
 		alert("登录成功！");
 		//这里写你页面跳转的语句
-		window.location.href="https://zhidao.baidu.com/question/304281524985227924.html";
+		window.location.href="index2.html";
 	}
 	else{
 	alert("用户名或密码错误！！");
