@@ -44,14 +44,14 @@
 	    changeVideo(src='http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8');
 	})
 	//湖南卫视
-	document.querySelector('.qiehuannnnnn').addEventListener('click', function () {
+	document.querySelector('.qiehuannnnnnn').addEventListener('click', function () {
 	    changeVideo(src='http://ivi.bupt.edu.cn/hls/hunanhd.m3u8');
 	})
 	//湖北卫视
-	document.querySelector('.qiehuannnnnn').addEventListener('click', function () {
+	document.querySelector('.qiehuannnnnnnn').addEventListener('click', function () {
 	    changeVideo(src='http://ivi.bupt.edu.cn/hls/hbhd.m3u8');
 	})
 	//安徽卫视
-	document.querySelector('.qiehuannnnnn').addEventListener('click', function () {
+	document.querySelector('.qiehuannnnnnnnn').addEventListener('click', function () {
 	    changeVideo(src='http://ivi.bupt.edu.cn/hls/ahhd.m3u8');
 	})
