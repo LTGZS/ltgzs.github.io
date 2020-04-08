@@ -2,30 +2,263 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<meta name="baidu-site-verification" content="jhN4Boh6iU" />
-		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-		<title>登录</title>
-		<link rel="stylesheet" type="text/css" href="css/dl.css"/>
-		<script src="js/dl.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<title>网站</title>
+		<link rel="stylesheet" type="text/css" href="css/dmaku.css"/>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shipin.css"/>
+		<script src="https://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/superslide.2.1.js" type="text/javascript" charset="utf-8"></script>
 	</head>
+	<style type="text/css">
+		
+	</style>
 	<body>
-		<div class="dlqb">
-			<div class="dlz">
-				
+		<div class="nav">
+			<a href=""style="background: #7a7a7a;box-shadow: inset 2px 2px 3px #333333, inset -2px -2px 3px #666666;line-height: 35px;color:black;">首页</a>
+			<a href="">视频</a>
+			<a href="">音乐</a>
+			<a href="">作品</a>
+			<a href="">交流</a>
+		</div>
+		<div class="banner">
+				<div class="fullSlide">
+					<div class="bd">
+						<ul>
+							<li _src="url(https://img.zcool.cn/community/01d02b5e830692a80120a8952639a5.png)" class="banner"><a href="#"></a></li>
+							<li _src="url(https://img.zcool.cn/community/0193b85e81e4b8a80121651870efbf.jpg)" class="banner"><a href="#"></a></li>
+							<li _src="url(https://img.zcool.cn/community/011d515da16aaaa801204cd038a357.jpg)" class="banner"><a href="#"></a></li>
+							<li _src="url(https://img.zcool.cn/community/0151105de07679a801215972fea5de.jpg)" class="banner"><a href="#"></a></li>
+						</ul>
+					</div>
+					<div class="hd"><ul></ul></div>
+					<span class="prev"></span>
+					<span class="next"></span>
+				</div><!--fullSlide end-->
+		</div>	
+		<div class="tqybbf">
+			<div class="tqyb">
+				<!-- 2814063673 -->
+				<div id="weather-view-he"></div>
+				<script>
+				WIDGET = {ID: 'SiIlgSxEU8'};
+				</script>
+				<script type="text/javascript" src="https://apip.weatherdt.com/view/static/js/r.js?v=1111"></script>
 			</div>
-			<div class="dly">
-				<input type="email" class="dll" id="username" placeholder="用户名">
-				<br>
-				<input type="password" class="dll" id="password" placeholder="密码">
-				<br>
-				<button type="submit" name="Submit" value="登录" onClick="checkLogon()" class="dlan" style="font-weight: bold;" >立刻登录</button>
-				<br>
-				<a href="zhuce.html"  class="zclj"> 
-				    注册
-				</a>
+			<div class="tqybyou">
+				<div id="video">
+				    <div id="mp4par">
+				        <video id="mp4" src="" poster=""></video>
+						<script type="text/javascript">
+							if(Hls.isSupported()) {
+									    var video = document.getElementById('mp4');
+									    var hls = new Hls();
+									    hls.loadSource('https://youku.cdn7-okzy.com/20200328/18269_d20b7741/index.m3u8');
+									    hls.attachMedia(video);
+									    hls.on(Hls.Events.MANIFEST_PARSED,function() {
+									      video.pause();
+									  });
+									 }
+						</script>
+				        <div id="controls">
+				            <input type="range" id="btntime" value="0" max="100"><br>
+				            <span id="current_time" style='font-size: 12px;color: white;font-weight: bold;'>00:00:00</span>
+				            <button id="btnstart" >播放</button>
+				            <button id="btngo" >快进</button>
+				            <button id="btnback" >快退</button>
+				            <button id="btnmute" >静音</button>
+				            <input type="range" id="btnsound" value="10" max="100">
+				            <button id="btnbig">全屏</button>
+				            <span id="totaltime" style='font-size: 12px;color: white;font-weight: bold;'>00:00:00</span>
+				            <!-- <button><i class="iconfont">&#xe638;</i></button> -->
+				        </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<div class="sysptj">
+			<div class="sptjtt">
+				<p>特推影片</p>
+				<button onclick="myFunctiontt()" class="ttdyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">罗宾汉：起源</i>
+					<img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2915018674,3756630279&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunctiontt2()" class="ttdyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">叶问4</i>
+					<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=882160572,4022383258&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunctiontt3()" class="ttdyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">肖申克的救赎</i>
+					<img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3675772136,1878003755&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunctiontt4()" class="ttdyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">野性的呼唤</i>
+					<img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=179213983,2963573912&fm=11&gp=0.jpg" >
+				</button>
 			</div>
 			
+			
+			<div class="sptjnr">
+				<button onclick="myFunction5()" class="dyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">喋血战士</i>
+					<img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3769594672,2755004810&fm=11&gp=0.jpg" >
+				</button>
+				<button onclick="myFunction6()" class="dyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">神战：权力之眼</i>
+					<img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=4266228979,1442744140&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunction7()" class="dyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">小飞象</i>
+					<img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3502962901,3207854760&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunction8()" class="dyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">康斯坦丁</i>
+					<img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1880705479,1280309816&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunction9()" class="dyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">天台爱情</i>
+					<img src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3582062887,1530876034&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunction10()" class="dyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">小小的愿望</i>
+					<img src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1014369221,1650269693&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunction11()" class="dyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">飞驰人生</i>
+					<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2528992447,2592399561&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunction12()" class="dyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">叶问4</i>
+					<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=882160572,4022383258&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunction13()" class="dyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">叶问4</i>
+					<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=882160572,4022383258&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunction14()" class="dyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">叶问4</i>
+					<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=882160572,4022383258&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunction15()" class="dyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">叶问4</i>
+					<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=882160572,4022383258&fm=26&gp=0.jpg" >
+				</button>
+				<button onclick="myFunction16()" class="dyhb">
+					<i style="width: 100%; position: absolute;bottom: 10px;left: 0px;text-align: center;">叶问4</i>
+					<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=882160572,4022383258&fm=26&gp=0.jpg" >
+				</button>
+			</div>
 		</div>
+		<!-- 视频特推内容 -->
+			<div class="spbfnr" id="spbfnr">
+				<div class="dynrqy">
+			     <button onclick="myFunctiontt()" class="dyhbfh" id="fhzt">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">罗宾汉：起源</p>
+			     <video id="myVideo"  controls preload="auto" data-setup='{}' poster="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=774205549,1101650524&fm=11&gp=0.jpg"></video>
+				 </div>
+		    </div>   
+		    <div class="spbfnr" id="spbfnr2">
+				<div class="dynrqy">
+			     <button onclick="myFunctiontt2()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">叶问4</p>
+			     <video id="myVideo2"  controls preload="auto" data-setup='{}' poster="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1899702089,894733003&fm=11&gp=0.jpg"></video>
+				 </div>
+		    </div>
+		    <div class="spbfnr" id="spbfnr3">
+				<div class="dynrqy">
+			     <button onclick="myFunctiontt3()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">肖申克的救赎</p>
+			     <video id="myVideo3"  controls preload="auto" data-setup='{}' poster="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3932287758,97655122&fm=26&gp=0.jpg"></video>
+				 </div>
+		    </div>
+		    <div class="spbfnr" id="spbfnr4">
+				<div class="dynrqy">
+			     <button onclick="myFunctiontt4()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">野性的呼唤</p>
+			     <video id="myVideo4"  controls preload="auto" data-setup='{}' poster="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3078892226,1609042554&fm=11&gp=0.jpg"></video>
+				 </div>
+		    </div>
+			<!-- 视频内容 -->
+			<div class="spbfnr" id="spbfnr5">
+				<div class="dynrqy">
+			     <button onclick="myFunction5()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">喋血战士</p>
+			     <video id="myVideo5"  controls preload="auto" data-setup='{}' poster="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1091713099,177310269&fm=11&gp=0.jpg"></video>
+				 </div>
+			</div>
+			<div class="spbfnr" id="spbfnr6">
+				<div class="dynrqy">
+			     <button onclick="myFunction6()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">神战：权力之眼</p>
+			     <video id="myVideo6"  controls preload="auto" data-setup='{}' poster="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2710452195,4147710560&fm=26&gp=0.jpg"></video>
+				 </div>
+			</div><div class="spbfnr" id="spbfnr7">
+				<div class="dynrqy">
+			     <button onclick="myFunction7()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">小飞象</p>
+			     <video id="myVideo7"  controls preload="auto" data-setup='{}' poster="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1096931712,4135108581&fm=26&gp=0.jpg"></video>
+				 </div>
+		    </div><div class="spbfnr" id="spbfnr8">
+				<div class="dynrqy">
+			     <button onclick="myFunction8()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">康斯坦丁</p>
+			     <video id="myVideo8"  controls preload="auto" data-setup='{}' poster="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1091601734,659245799&fm=26&gp=0.jpg"></video>
+				 </div>
+		    </div><div class="spbfnr" id="spbfnr9">
+				<div class="dynrqy">
+			     <button onclick="myFunction9()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">天台爱情</p>
+			     <video id="myVideo9"  controls preload="auto" data-setup='{}' poster="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3979915981,4108771594&fm=26&gp=0.jpg"></video>
+				 </div>
+		    </div><div class="spbfnr" id="spbfnr10">
+				<div class="dynrqy">
+			     <button onclick="myFunction10()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">小小的愿望</p>
+			     <video id="myVideo10"  controls preload="auto" data-setup='{}' poster="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=854699556,3913054146&fm=26&gp=0.jpg"></video>
+				 </div>
+		    </div><div class="spbfnr" id="spbfnr11">
+				<div class="dynrqy">
+			     <button onclick="myFunction11()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">飞驰人生</p>
+			     <video id="myVideo11"  controls preload="auto" data-setup='{}' poster="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=996201286,3916009020&fm=26&gp=0.jpg"></video>
+				 </div>
+		    </div><div class="spbfnr" id="spbfnr12">
+				<div class="dynrqy">
+			     <button onclick="myFunction12()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">野性的呼唤</p>
+			     <video id="myVideo12"  controls preload="auto" data-setup='{}' poster="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3078892226,1609042554&fm=11&gp=0.jpg"></video>
+				 </div>
+		    </div><div class="spbfnr" id="spbfnr13">
+				<div class="dynrqy">
+			     <button onclick="myFunction13()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">野性的呼唤</p>
+			     <video id="myVideo13"  controls preload="auto" data-setup='{}' poster="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3078892226,1609042554&fm=11&gp=0.jpg"></video>
+				 </div>
+		    </div><div class="spbfnr" id="spbfnr14">
+				<div class="dynrqy">
+			     <button onclick="myFunction14()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">野性的呼唤</p>
+			     <video id="myVideo14"  controls preload="auto" data-setup='{}' poster="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3078892226,1609042554&fm=11&gp=0.jpg"></video>
+				 </div>
+		    </div><div class="spbfnr" id="spbfnr15">
+				<div class="dynrqy">
+			     <button onclick="myFunction15()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">野性的呼唤</p>
+			     <video id="myVideo15"  controls preload="auto" data-setup='{}' poster="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3078892226,1609042554&fm=11&gp=0.jpg"></video>
+				 </div>
+		    </div><div class="spbfnr" id="spbfnr16">
+				<div class="dynrqy">
+			     <button onclick="myFunction16()" class="dyhbfh">返回</button>
+				 <p style="margin:15px;color: white;font-weight: bold;float: right;">野性的呼唤</p>
+			     <video id="myVideo16"  controls preload="auto" data-setup='{}' poster="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3078892226,1609042554&fm=11&gp=0.jpg"></video>
+				 </div>
+		    </div>
+			
+			<div class="yynr">
+				<iframe src="http://ltsjgzs.top/lsyy/" width="100%" height="100%" style="border: none;"></iframe>
+			</div>
 	</body>
+	<script src="js/spdb.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/banner.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/shipin.js" type="text/javascript" charset="utf-8"></script>
 </html>
