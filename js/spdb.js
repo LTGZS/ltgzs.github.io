@@ -215,7 +215,7 @@ if(Hls.isSupported()) {
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo7');
 		var hls = new Hls();
-		hls.loadSource('https://zk.603ee.com/2019/06/14/pkDc4xA6Ujmf4TOW/playlist.m3u8');
+		hls.loadSource('https://haitang.kankan-kuyunzy.com/20200202/11025_085e371e/index.m3u8');
 		hls.attachMedia(video);
 		hls.on(Hls.Events.MANIFEST_PARSED,function() {
 		  video.pause();
@@ -261,7 +261,7 @@ if(Hls.isSupported()) {
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo12');
 		var hls = new Hls();
-		hls.loadSource('https://youku.cdn7-okzy.com/20200328/18269_d20b7741/index.m3u8');
+		hls.loadSource('https://iqiyi.zuidameiju.com/20200309/13393_5e8d9dab/index.m3u8');
 		hls.attachMedia(video);
 		hls.on(Hls.Events.MANIFEST_PARSED,function() {
 		  video.pause();
@@ -270,7 +270,7 @@ if(Hls.isSupported()) {
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo13');
 		var hls = new Hls();
-		hls.loadSource('https://youku.cdn7-okzy.com/20200328/18269_d20b7741/index.m3u8');
+		hls.loadSource('https://youku.com-l-youku.com/20181216/3982_d4991cf5/index.m3u8');
 		hls.attachMedia(video);
 		hls.on(Hls.Events.MANIFEST_PARSED,function() {
 		  video.pause();
@@ -279,7 +279,7 @@ if(Hls.isSupported()) {
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo14');
 		var hls = new Hls();
-		hls.loadSource('https://youku.cdn7-okzy.com/20200328/18269_d20b7741/index.m3u8');
+		hls.loadSource('https://bili.let-1977cdn.com/20190622/LWHaAbLO/index.m3u8');
 		hls.attachMedia(video);
 		hls.on(Hls.Events.MANIFEST_PARSED,function() {
 		  video.pause();
@@ -288,7 +288,7 @@ if(Hls.isSupported()) {
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo15');
 		var hls = new Hls();
-		hls.loadSource('https://youku.cdn7-okzy.com/20200328/18269_d20b7741/index.m3u8');
+		hls.loadSource('https://cn1.ruioushang.com/hls/20190206/1bb30a5c7c78a8ececfbf0c209a4c1b6/1549390439/index.m3u8');
 		hls.attachMedia(video);
 		hls.on(Hls.Events.MANIFEST_PARSED,function() {
 		  video.pause();
@@ -297,7 +297,7 @@ if(Hls.isSupported()) {
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo16');
 		var hls = new Hls();
-		hls.loadSource('https://youku.cdn7-okzy.com/20200328/18269_d20b7741/index.m3u8');
+		hls.loadSource('https://sohu.com-v-sohu.com/20180830/12209_04e8a79a/index.m3u8');
 		hls.attachMedia(video);
 		hls.on(Hls.Events.MANIFEST_PARSED,function() {
 		  video.pause();
