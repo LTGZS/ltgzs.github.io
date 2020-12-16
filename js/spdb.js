@@ -51,7 +51,7 @@ if(Hls.isSupported()) {
 if(Hls.isSupported()) {
 		var video = document.getElementById('myVideo2');
 		var hls = new Hls();
-		hls.loadSource('https://cdn-2.okp2pweb.com/hls/2020/03/01/vLU9XIo4/playlist.m3u8');
+		hls.loadSource('http://qukufile2.qianqian.com/film_tv/film/叶问：终极一战.mp4');
 		hls.attachMedia(video);
 		hls.on(Hls.Events.MANIFEST_PARSED,function() {
 		  video.pause();
